@@ -1,0 +1,85 @@
+.Desktop_purple{
+    background-color: #f6f4f8;
+    padding: 64px 0;;
+}
+.Desktop_purple .viewsellpage{
+    margin: 0 auto;
+    max-width: 1248px;
+    min-width: 978px;
+    width: 62vw;
+}
+.viewsellpage .backgroundimg{
+    background-image: url("../../assets/backimg.webp");
+    background-color: #2e054e;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-family: font-demi;
+    margin: 32px 0;
+    padding: 12px 32px 32px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;   
+}
+.backgroundimg .heading{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.heading h2{
+    color: #fff;
+    font-family: font-demi-italic;
+    font-size: 22px;
+    line-height: 26px;
+}
+.heading img{
+    height: 80px;
+}
+.backgroundimg .ullist{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 100%;
+
+}
+.ullist .desktop-listitem{
+    color: #fff;
+    width: calc(33% - 12px);
+}
+.desktop-listitem .listitems{
+    background-color: rgba(99, 0, 163, .3);
+    border-radius: 6px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 16px 24px;
+    width: 100%;
+}
+.listitems .img1{
+    align-items: center;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    width: 32px;
+}
+.listitems .content{
+    align-items: baseline;
+    display: flex;
+    margin-top: 8px;
+}
+.content strong{
+    color: #fff;
+    font-family: font-demi;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 8px;
+}
+.content span{
+    font-family: font-book;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}

@@ -1,0 +1,150 @@
+.loginContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    backdrop-filter: blur(8px);
+    opacity: 1;
+}
+
+
+.content {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 24px;
+    width: 386px;
+    z-index: 2;
+    position: relative;
+}
+
+.close{
+    background: rebeccapurple;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.form {
+    align-items: center;
+    color: #2e054e;
+    display: flex;
+    flex-direction: column;
+    font-family: font-demi;
+    justify-content: space-between;
+    padding: 8px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.form .loginTop {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginInput {
+    box-sizing: border-box;
+    margin: 16px 0;
+    padding: 0 16px;
+    position: relative;
+    width: 100%;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding: 0 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.loginInput div {
+    border-radius: 8px;
+    color: #2e054e;
+    position: relative;
+    width: 100%;
+}
+
+.loginInput div input {
+    appearance: none;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #2e054e;
+    font-size: 14px;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: 20px;
+    line-height: 18px;
+    outline: 0;
+    padding-left: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+
+.form .loginBottom {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    width: 100%;
+}
+
+
+.loginBottom div {
+    width: 100%;
+}
+
+
+.btn_section {
+    padding-top: 48px;
+    box-sizing: border-box;
+    padding: 16px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.btn_section p {
+    color: #888;
+    font-family: font-book;
+    font-size: 14px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.btn_section button {
+    background-color: #6300a3;
+    text-transform: none;
+    width: 100%;
+    align-items: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 2.4em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    height: 50px;
+    justify-content: center;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #fff;
+}

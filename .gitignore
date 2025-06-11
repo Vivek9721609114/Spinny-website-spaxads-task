@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yLinksrn-debug.log*
+yLinksrn-error.log*
+pnpm-debug.log*
+lernLinks-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.locLinksl
+
+# Editor directories Linksnd files
+.vscode/*
+!.vscode/extensions.json
+.ideLinks
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

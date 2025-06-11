@@ -1,0 +1,270 @@
+.sell_desktop{
+    padding: 64px 0;
+    background-color: #fff;
+}
+.sell_page{
+    width: 62vw;
+    margin: 0 auto;
+    max-width: 1248px;
+    min-width: 978px;
+}
+.sell_page .desktopview{
+    color: #2e054e;
+    padding: 0;
+    
+}
+
+.flexcol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.desktopview .heading{
+    font-family: font-demi;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+.desktopview .listwrap{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 32px;
+padding: 0 16px;
+gap: 16px;
+
+}
+.listwrap .lists{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+row-gap: 20px;
+}
+.lists img{
+    text-align: center;
+    height: 190px;
+    margin: auto;
+    width: auto;
+    
+}
+.lists .content_section{
+    align-self: baseline;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-family: font-demi;
+    min-width: 0;
+    padding: 12px;
+
+}
+.head1{
+    font-family: font-demi;
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.para1{
+    color: #555;
+    font-family: font-book;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 8px;
+    padding: 0 16px;
+    text-align: center;
+}
+.content_section .btn{
+    color: #6300a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: font-demi;
+    height: auto;
+    text-transform: unset;
+    width: auto;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 2.4em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button_container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 56px 0 0;
+}
+.button_container .videobtn{
+    font-family: font-medium;
+    font-size: 16px;
+    padding: 0 44px 0 52px;
+    text-transform: none;
+    background-color: #6300a3;
+    color: #fff;
+    align-items: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 2.4em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.texthead{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 7px;
+}
+.learncontent{
+    align-items: center;
+    font-weight: 500;
+    color: #6300a3;
+    cursor: pointer;
+    display: flex;
+    font-family: font-demi;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 22px;
+    margin: 16px auto auto;
+    position: relative;
+    white-space: nowrap;
+    width: 106px;
+    outline: 0;
+    text-decoration:none;
+}
+.sell_page .user_reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 40px 0;
+    position: relative;
+}
+.user_reviewsheading{
+    color: #2e054e;
+    font-family: font-heavy;
+    font-size: 28px;
+}
+.user_reviews .reviewscontainer{
+    align-items: center;
+    display: flex;
+    gap: 48px;
+}
+.caraousalbutton{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.caraousalbutton button{
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    padding: 0 10px;
+}
+.collective_reviews{
+    align-items: center;
+    background-color: #f6f6f6;
+    border-radius: 12px;
+    color: #2e054e;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 15px;
+    text-align: center;
+}
+.collective_reviews h3{
+    color: #2e054e;
+    font-family: font-medium;
+    font-size: 42px;
+}
+.starcont{
+    display: flex;
+    gap: 2px;
+}
+.span2{
+    font-size: 24px;
+    color: #FFD700;
+   
+}
+.caraousalcontainer{
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+}
+.caraousalcontainer .reviewcard{
+    border: 1px solid #dfdfdf;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 186px;
+    min-width: 295px;
+    padding: 18px;
+}
+.reviewcard .topsection{
+    display: flex;
+        justify-content: space-between;
+}
+.topsection .topleftsection{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+.topleftsection h4{
+    color: #2e054e;
+    font-family: font-book;
+    font-size: 16px;
+    line-height: 20px;
+}
+.topleftsection .span3{
+    color: #555;
+    font-family: font-light;
+    font-size: 12px;
+}
+.span4{
+    font-size: 17px;
+    color: #FFD700;
+}
+.reviewcard .textsection{
+    color: #2e054e;
+    font-family: font-book;
+    font-size: 14px;
+    height: 100%;
+    line-height: 18px;
+    position: relative;
+
+}
+.para2{
+    margin-bottom: 18px;
+    position: absolute;
+    color: #000;
+}
+

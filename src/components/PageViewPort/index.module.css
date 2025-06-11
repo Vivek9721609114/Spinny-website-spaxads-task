@@ -1,0 +1,66 @@
+.pageviewport{
+    margin: 0 auto;
+    max-width: 1240px;
+    min-width: 978px;
+    --rotation: 0deg;
+    color: #2e054e;
+    display: flex;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+}
+.pageviewport .contentpage{
+    display: flex;
+    flex-direction:row;
+    padding: 12px 0 32px;
+    color: #2e054e;
+}
+.contentpage .descfootercontent{
+    flex: 1;
+    min-width: 0;
+}
+.descfootercontent .subtxtcontent{
+    display: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+.seocontent .seoheading{
+    margin-block: 24px 8px;
+    font-family: font-heavy;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.seocontent .seopara1{
+    font-family: font-book;
+    white-space: normal;
+    color:#1b012f;
+}
+.seopara1 p{
+    color: inherit;
+}
+.seopara1 p strong{
+    font-family: font-demi;
+    font-weight: bolder;
+    color:#2e054e;
+}
+.seopara1 p a{
+    color: inherit;
+    font-family: font-book;
+    text-decoration: underline;
+}
+.seocontent .item1{
+    padding-left: 24px;
+        /* padding-block: 6px; */
+}
+.seocontent .item1 li{
+        /* padding-block: 4px; */
+}
+.seopara1 h3{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: font-medium;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: start;
+}

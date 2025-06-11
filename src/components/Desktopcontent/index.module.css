@@ -1,0 +1,171 @@
+.content_desktop{
+    padding-bottom: 0;
+    background-color: #f6f4f8;
+    padding: 64px 0;
+}
+.content_desktop .header_viewwrapper{
+    margin: 0 auto;
+    max-width: 1248px;
+    min-width: 978px;
+    width: 100%;
+}
+.header_viewwrapper .love_story{
+    background-color: transparent;
+    margin-block: 80px;
+    position: relative;
+    margin-top: 40px;
+    min-height: 540px;
+}
+.love_story .heading{
+    font-family: font-heavy;
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 32px;
+    align-items: center;
+    color: #2e054e;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+}
+.heading::before{
+    background: linear-gradient(270deg, hsla(0, 0%, 67%, .4), hsla(0, 0%, 91%, 0));
+    content: "";
+    flex: 1;
+    height: 1px;
+    margin-right: 24px;
+}
+.heading::after{
+    background: linear-gradient(270deg, hsla(0, 0%, 91%, 0), hsla(0, 0%, 67%, .4));
+    content: "";
+    flex: 1;
+    height: 1px;
+    margin-left: 24px;
+}
+.love_story .caraousal_container{
+    max-width: 100%;
+    position: relative;
+    width: auto;
+}
+.caraousal_container .caraousal_horizental{
+    display: flex;
+    margin: auto;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 100%;
+    gap: 16px;
+    padding: 0;
+}
+.caraousal_horizental .lists{
+    background-image: url("../../assets/carimg3.webp");
+    background-color: #e8e8e8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    border-radius: 12px;
+    display: flex;
+    height: 478px;
+    margin: 0;
+    min-width: 343px;
+    position: relative;
+    width: 343px;
+}
+.lists .topdesc{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: font-demi;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    top: 0;
+    padding-top: 14px;
+    padding-left: 14px;
+}
+.topdesc img{
+    padding: 8px;
+    background: #2e054e;
+    border-radius: 32px;
+    gap:8px;
+}
+.topdesc span{
+    color: #fff;
+    padding: 5px;
+}
+.lists .bottomdesc{
+    bottom: 0;
+    gap: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    position: absolute;
+    white-space: break-spaces;
+    width: calc(100% - 32px);
+    z-index: 1;
+}
+.bottomdesc .ulitem{
+    display: flex;
+    flex-direction: column;
+    font-family: font-demi;
+    font-size: 16px;
+    line-height: 20px;
+    list-style: none;
+}
+.ulitem li{
+    font-size: 14px;
+}
+.ulitem .text{
+    font-family: font-book;
+    font-size: 14px;
+    line-height: 20px
+}
+.caraousal-part2 .homepagination_scroll_left{
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 22px;
+    top: calc(50% - 16px);
+    align-items: center;
+    background-color: #6300a3;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    left: 0;
+    margin-left: -3.5em;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 2em;
+    z-index: 1;
+}
+.caraousal-part2 .homepagination_scroll_right{
+    left: unset;
+    margin-left: 0;
+    margin-right: -3.5em;
+    right: 0;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 22px;
+    top: calc(50% - 16px);
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 2em;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 2em;
+    z-index: 1;
+}
+.homepagination_scroll_right span{
+    margin-right: -1px;
+    transform: rotate(-90deg);
+}
+.faq_section{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+}
